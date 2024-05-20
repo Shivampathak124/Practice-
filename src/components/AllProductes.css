@@ -1,0 +1,27 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    gap: 16px;
+    /* Space between the grid items */
+    padding: 16px;
+    /* Padding around the grid */
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
